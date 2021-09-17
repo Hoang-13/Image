@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054E019926F4855700D0D3D1 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E019726F4855700D0D3D1 /* RegisterVC.swift */; };
+		054E019A26F4855700D0D3D1 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054E019826F4855700D0D3D1 /* RegisterVC.xib */; };
+		054E019D26F4870C00D0D3D1 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E019B26F4870C00D0D3D1 /* ForgotPasswordVC.swift */; };
+		054E019E26F4870C00D0D3D1 /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054E019C26F4870C00D0D3D1 /* ForgotPasswordVC.xib */; };
+		054E01A126F490BB00D0D3D1 /* IndexPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E019F26F490BB00D0D3D1 /* IndexPageVC.swift */; };
+		054E01A226F490BB00D0D3D1 /* IndexPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054E01A026F490BB00D0D3D1 /* IndexPageVC.xib */; };
+		054E01A626F4974800D0D3D1 /* Page2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E01A426F4974800D0D3D1 /* Page2VC.swift */; };
+		054E01A726F4974800D0D3D1 /* Page2VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054E01A526F4974800D0D3D1 /* Page2VC.xib */; };
 		0552903526F47BFF002A9B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0552903426F47BFF002A9B13 /* AppDelegate.swift */; };
 		0552903726F47BFF002A9B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0552903626F47BFF002A9B13 /* SceneDelegate.swift */; };
 		0552903926F47BFF002A9B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0552903826F47BFF002A9B13 /* ViewController.swift */; };
@@ -14,9 +22,19 @@
 		0552903F26F47BFF002A9B13 /* Image.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0552903D26F47BFF002A9B13 /* Image.xcdatamodeld */; };
 		0552904126F47C02002A9B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0552904026F47C02002A9B13 /* Assets.xcassets */; };
 		0552904426F47C02002A9B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0552904226F47C02002A9B13 /* LaunchScreen.storyboard */; };
+		0552904C26F47CE5002A9B13 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0552904B26F47CE5002A9B13 /* GoogleService-Info.plist */; };
+		65F874020CE341224F3F2261 /* Pods_Image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158832F4468551E95E2FE19A /* Pods_Image.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		054E019726F4855700D0D3D1 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		054E019826F4855700D0D3D1 /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		054E019B26F4870C00D0D3D1 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		054E019C26F4870C00D0D3D1 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		054E019F26F490BB00D0D3D1 /* IndexPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPageVC.swift; sourceTree = "<group>"; };
+		054E01A026F490BB00D0D3D1 /* IndexPageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IndexPageVC.xib; sourceTree = "<group>"; };
+		054E01A426F4974800D0D3D1 /* Page2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2VC.swift; sourceTree = "<group>"; };
+		054E01A526F4974800D0D3D1 /* Page2VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page2VC.xib; sourceTree = "<group>"; };
 		0552903126F47BFF002A9B13 /* Image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Image.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0552903426F47BFF002A9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0552903626F47BFF002A9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +44,10 @@
 		0552904026F47C02002A9B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0552904326F47C02002A9B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0552904526F47C02002A9B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0552904B26F47CE5002A9B13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		158832F4468551E95E2FE19A /* Pods_Image.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Image.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		417299185686ABCEB8E32BE7 /* Pods-Image.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image.debug.xcconfig"; path = "Target Support Files/Pods-Image/Pods-Image.debug.xcconfig"; sourceTree = "<group>"; };
+		6B82B3941F772BDD2D19855B /* Pods-Image.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image.release.xcconfig"; path = "Target Support Files/Pods-Image/Pods-Image.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F874020CE341224F3F2261 /* Pods_Image.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01586BBBC8F368A4FAD171E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				417299185686ABCEB8E32BE7 /* Pods-Image.debug.xcconfig */,
+				6B82B3941F772BDD2D19855B /* Pods-Image.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		0552902826F47BFF002A9B13 = {
 			isa = PBXGroup;
 			children = (
 				0552903326F47BFF002A9B13 /* Image */,
 				0552903226F47BFF002A9B13 /* Products */,
+				01586BBBC8F368A4FAD171E0 /* Pods */,
+				0D2CF5BDE334788CCCB5DF2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +100,25 @@
 				0552904226F47C02002A9B13 /* LaunchScreen.storyboard */,
 				0552904526F47C02002A9B13 /* Info.plist */,
 				0552903D26F47BFF002A9B13 /* Image.xcdatamodeld */,
+				0552904B26F47CE5002A9B13 /* GoogleService-Info.plist */,
+				054E019726F4855700D0D3D1 /* RegisterVC.swift */,
+				054E019826F4855700D0D3D1 /* RegisterVC.xib */,
+				054E019B26F4870C00D0D3D1 /* ForgotPasswordVC.swift */,
+				054E019C26F4870C00D0D3D1 /* ForgotPasswordVC.xib */,
+				054E019F26F490BB00D0D3D1 /* IndexPageVC.swift */,
+				054E01A026F490BB00D0D3D1 /* IndexPageVC.xib */,
+				054E01A426F4974800D0D3D1 /* Page2VC.swift */,
+				054E01A526F4974800D0D3D1 /* Page2VC.xib */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		0D2CF5BDE334788CCCB5DF2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				158832F4468551E95E2FE19A /* Pods_Image.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0552904826F47C02002A9B13 /* Build configuration list for PBXNativeTarget "Image" */;
 			buildPhases = (
+				B9924FFEBAC6C340F5C62395 /* [CP] Check Pods Manifest.lock */,
 				0552902D26F47BFF002A9B13 /* Sources */,
 				0552902E26F47BFF002A9B13 /* Frameworks */,
 				0552902F26F47BFF002A9B13 /* Resources */,
+				7C246556EA261FC0B0600669 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,22 +181,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				0552904426F47C02002A9B13 /* LaunchScreen.storyboard in Resources */,
+				0552904C26F47CE5002A9B13 /* GoogleService-Info.plist in Resources */,
 				0552904126F47C02002A9B13 /* Assets.xcassets in Resources */,
+				054E01A226F490BB00D0D3D1 /* IndexPageVC.xib in Resources */,
+				054E01A726F4974800D0D3D1 /* Page2VC.xib in Resources */,
 				0552903C26F47BFF002A9B13 /* Main.storyboard in Resources */,
+				054E019E26F4870C00D0D3D1 /* ForgotPasswordVC.xib in Resources */,
+				054E019A26F4855700D0D3D1 /* RegisterVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C246556EA261FC0B0600669 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image/Pods-Image-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image/Pods-Image-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Image/Pods-Image-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9924FFEBAC6C340F5C62395 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Image-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0552902D26F47BFF002A9B13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054E01A626F4974800D0D3D1 /* Page2VC.swift in Sources */,
 				0552903926F47BFF002A9B13 /* ViewController.swift in Sources */,
 				0552903F26F47BFF002A9B13 /* Image.xcdatamodeld in Sources */,
+				054E019D26F4870C00D0D3D1 /* ForgotPasswordVC.swift in Sources */,
 				0552903526F47BFF002A9B13 /* AppDelegate.swift in Sources */,
+				054E01A126F490BB00D0D3D1 /* IndexPageVC.swift in Sources */,
 				0552903726F47BFF002A9B13 /* SceneDelegate.swift in Sources */,
+				054E019926F4855700D0D3D1 /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +391,7 @@
 		};
 		0552904926F47C02002A9B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417299185686ABCEB8E32BE7 /* Pods-Image.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +411,7 @@
 		};
 		0552904A26F47C02002A9B13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B82B3941F772BDD2D19855B /* Pods-Image.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
